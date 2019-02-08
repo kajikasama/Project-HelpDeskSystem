@@ -1,0 +1,276 @@
+body,html
+{
+	
+	background-size: cover;
+	font-family: gotham book;
+	font-size: 20px;
+	margin: 0;
+}
+body
+{
+	background-image: url(admin2.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+.sidenav
+{
+	background-color: #000000;
+	height: 100%;
+	width:200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	padding-top: 60px;
+	
+}
+.sidenav a {
+    padding: 9px 9px 9px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    margin-right: 10px;
+	transition:0.3s;
+	text-decoration:none;
+}
+
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+	transition:0.3s;
+	text-decoration:none;
+	background:rgba(0,102,255,1);
+}
+.topnav
+{
+	overflow: hidden;
+	background-color: #333;
+	margin-left: 200px;
+	padding-right:40px;
+	
+}
+.topnav a
+{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 18px 20px;
+	text-decoration: none;
+	transition:0.3s;
+}
+.topnav a:hover
+{
+	background-color: #f3f3f3;
+	color: black;
+	text-decoration: none;
+	transition:0.3s;
+}
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+.fa:hover 
+{
+    opacity: 0.9;
+    transition: 0.3s;
+	text-decoration:none;
+}
+.fa-facebook
+{
+  margin-left: 700px;
+  color:blue;
+  background:rgba(0,102,204,1);
+  text-decoration:none;
+  transition: 0.3s;
+  border-bottom: rgba(0,102,204,1) 4px solid;
+}
+.fa-instagram
+{
+	color: white;
+	background:rgba(204,0,204,1);
+	transition: 0.3s;
+	border-bottom: rgba(204,0,204,1) 4px solid;
+}
+.fa-twitter
+{
+	color: white;
+	background: rgba(0,204,204,1);
+	transition: 0.3s;
+	border-bottom:rgba(0,204,204,1) 4px solid;
+}
+.fa-steam
+{
+	color: white;
+	background: rgba(0,51,204,1);
+	transition: 0.5s;
+	border-bottom:rgba(0,51,204,1) 4px solid;
+}
+.typographic
+{
+	background-color:black;
+	margin-left: 580px;
+	margin-top: 80px;	
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:0.9;
+	width:500px;
+	color: white;
+}
+.typographic2
+{
+	background-color:black;
+	margin-top: 580px;	
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:0.8;
+	text-align:center;
+	margin: 580px 20px 20px 260px;
+}
+.typographic label
+{
+	margin-top:5px;
+	color:rgba(255,255,255,1);
+}
+.typographic input[type="submit"]
+{
+	margin-top:13px;
+}
+table th,td
+{
+	text-align:center;
+}
+.tipo
+{
+	text-align:center;
+	margin-left:150px;
+	color:white;
+}
+form input[type="submit"]
+{
+	background:none;
+	border:rgba(0,102,153,1) 2px solid;
+	color: rgba(0,153,204,1);
+	width:200px;
+	height:35px;
+	border-radius:4px;
+	transition: 0.3s;
+}
+form input[type="submit"]:hover
+{
+	background:none;
+	border: #05FF4B 2px solid;
+	color: #05FF4B;
+	transition: 0.3s;
+	margin-top: 13px;
+
+}
+form input[type="reset"]
+{
+	background:none;
+	border: rgba(255,51,0,1) 2px solid;
+	color: rgba(255,51,0,1);
+	width:200px;
+	margin-top:14px;
+	float:right;
+	height:35px;
+	border-radius:4px;
+	transition: 0.3s;
+}
+form input[type="reset"]:hover
+{
+	background:none;
+	border: #FF0F0F 2px solid;
+	color: #FF0F0F;
+	transition: 0.3s;
+}
+table .table
+{
+	background: black;
+	opacity: 1;
+}
+.sidenav a[name="c1"]
+{
+	font-size: 18px;
+}
+
+table tr td a
+{
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	transition: 0.3s;
+}
+table tr td a:hover
+{
+	text-decoration: none;
+	display: block;
+	transition: 0.3s;
+}
+a[name="quit"]:hover
+{
+  background: #FA1731;
+}
+a[name="customer"]:hover
+{
+  background: #22F675;
+}
+a[name="ticket"]:hover
+{
+  background: #E8BF20;
+}
+a[name="staff"]:hover
+{
+  background: #15E7FD;
+}
+a[name="index2"]
+{
+  background: white;
+  color: black;
+  opacity: 0.9;
+}
+a[name="admin"]:hover
+{
+  background: #3928FB;
+  color: #f1f1f1;
+}
+.sidenav a[name="c1"]
+{
+	color: #9B19FA;
+  background: none;
+}
+a[name="c1"]:hover
+{
+  color: #9B19FA;
+  background: none;
+  opacity: 0.9;
+}
+a[name="ticketkategory"]
+{
+  font-size: 18px;
+}
+a[name="staffcategory"]
+{
+  font-size: 18px;
+}
+a[name="ticketkategory"]:hover
+{
+  background: #F98D2B;
+}
+a[name="staffcategory"]:hover
+{
+  background: #099610;
+  color: white;
+}
+p[name="c2"]
+{
+	font-family: 'sans-serif';
+	font-size: 25px;
+}

@@ -1,0 +1,258 @@
+body,html
+{
+	
+	background-size: cover;
+	font-family: gotham book;
+	font-size: 20px;
+	margin: 0;
+}
+body
+{
+	background-image: url(computer.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+.sidenav
+{
+	background-color: #000000;
+	height: 100%;
+	width:200px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	padding-top: 60px;
+}
+.sidenav a {
+    padding: 9px 9px 9px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    margin-right: 10px;
+	transition:0.3s;
+	text-decoration:none;
+}
+
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+	transition:0.3s;
+	text-decoration:none;
+	background:rgba(0,102,255,1);
+}
+.topnav
+{
+	overflow: hidden;
+	background-color: #333;
+	margin-left: 200px;
+	padding-right:40px;
+	
+}
+.topnav a
+{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 18px 20px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.topnav a:hover
+{
+	background-color: #f3f3f3;
+	color: black;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+.fa:hover 
+{
+    opacity: 0.9;
+    transition: 0.3s;
+    background: white;
+}
+.fa-facebook
+{
+  margin-left: 700px;
+  color:blue;
+  background:rgba(0,102,204,1);
+  text-decoration:none;
+  transition: 0.3s;
+  border-bottom: rgba(0,102,204,1) 4px solid;
+}
+.fa-instagram
+{
+	color: white;
+	background:rgba(204,0,204,1);
+	transition: 0.3s;
+	border-bottom: rgba(204,0,204,1) 4px solid;
+}
+.fa-twitter
+{
+	color: white;
+	background: rgba(0,204,204,1);
+	transition: 0.3s;
+	border-bottom:rgba(0,204,204,1) 4px solid;
+}
+.fa-steam
+{
+	color: white;
+	background: rgba(0,51,204,1);
+	transition: 0.5s;
+	border-bottom:rgba(0,51,204,1) 4px solid;
+}
+.typographic
+{
+	background-color:black;
+	margin-top:2%;
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:1;
+	text-align:center;
+	margin-left:460px;
+	width:800px;
+}
+.typographic1
+{
+	background-color:black;
+	margin-left: 415px;
+	margin-top: 52%;	
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:1;
+	text-align:center;
+	margin-left:360px;
+	width:1000px;
+}
+.typographic2
+{
+	background-color:black;
+	margin-left: 360px;
+	margin-top: 22%;	
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:0.9;
+	width:1000px;
+}
+.typographic3
+{
+	background-color:black;
+	margin-left: 360px;
+	margin-top: 64%;	
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:0.9;
+	width:1000px;
+}
+.typographic4
+{
+	background-color:black;
+	margin-left: 360px;
+	margin-top: 110%;	
+	padding: 20px;
+	position: absolute;
+	border-radius:5px;
+	opacity:0.9;
+	width:1000px;
+	text-align: center;
+}
+.typographic2 label
+{
+	margin-top:5px;
+	color:rgba(255,255,255,1);
+}
+.typographic2 input[type="submit"]
+{
+	margin-top:15px;
+}
+table tr th td
+{
+	text-align:center
+}
+.tipo
+{
+	text-align:center;
+	margin-left:150px;
+	color:white;
+}
+table th,td
+{
+	text-align:center;
+}
+.sidenav a[name="c1"]
+{
+	font-size: 18px;
+}
+.typographic .row
+{
+	margin-left: 0px;
+} 
+.row .col-sm-6 .thumbnail img
+{
+	width: 200px;
+}
+.row .col-sm-6
+{
+	text-align: center;
+	margin-left: 10px;	
+}
+.row .col-sm-6 .thumbnail[name="c1"]
+{
+	width: 300px;
+	margin-left: 20px;
+}
+.row .col-sm-6 .thumbnail[name="c2"]
+{
+	width: 300px;
+	margin-left: 30px;
+}
+.row .col-sm-6 .thumbnail[name="c3"]
+{
+	width: 200px;
+	margin-left: 15px;
+}
+.row .col-sm-6 .thumbnail[name="c4"]
+{
+	width: 200px;
+	margin-left: 35px;
+}
+.row .col-sm-6 .thumbnail[name="c5"]
+{
+	width: 200px;
+	margin-left: 50px;
+}
+.caption p a
+{
+	background: none;
+	width: 100px;
+	height: 35px;
+	border: #0045FF 2px solid;
+	color: #0045FF;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s; 
+}
+.caption p a:hover
+{
+	background: none;
+	width: 100px;
+	height: 35px;
+	border: #0081FF 2px solid;
+	color: #0081FF;
+	opacity: 0.8;
+	text-decoration: none;
+	transition: 0.3s;
+}

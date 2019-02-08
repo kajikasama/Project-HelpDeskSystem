@@ -1,0 +1,21 @@
+.sat
+{
+	background: rgba(204,204,204,1);
+}
+.sat ul ul li .active
+{
+	background: rgba(153,153,153,1);
+}
+.container .jumbotron
+{
+	margin-top:20px;
+	/*background:url(800px_COLOURBOX2478322.jpg);*/
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('800px_COLOURBOX2478322.jpg');
+	background-size:1180px 300px;
+	background-position:center;
+	/*border: rgba(0,51,102,1) 3px solid; */
+}
+.container .jumbotron h1
+{
+	color : white;
+}
