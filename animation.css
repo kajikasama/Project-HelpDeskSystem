@@ -1,0 +1,78 @@
+ul li
+{
+	width: 200px;
+	height: 50px;
+	background: #000000;
+	opacity: 0.8;
+	text-align: center;
+	list-style: none;
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Arial;
+	border-bottom: #FFFFFF 3px solid;
+	display: block;
+}
+ul li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	
+
+}
+ul li a:hover
+{
+	display: block;
+	animation-name: tusbol;
+	animation-timing-function: ease-in-out;
+	animation-duration: 0.3s;
+	animation-direction: all;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+@keyframes tusbol
+{
+	0%
+	{
+		transform: translateX(-20px);
+		border-left: 10px #9161EC solid;
+		height: 50px;
+		display: block;
+		left: 200px;
+	}
+	100%
+	{
+		border-left: 200px #9161EC solid;
+		height: 50px;
+		background: #4057F9;
+		display: block;
+		left: 200px;
+
+	}
+}
+a[name="c1"]
+{
+	border-left: #9AF440 10px solid;
+}
+a[name="c2"]
+{
+	border-left: #C850F1 10px solid;
+}
+a[name="c3"]
+{
+	border-left: #EFA141 10px solid;
+}
+a[name="c1"]:hover
+{
+	background: #9AF440;
+}
+a[name="c2"]:hover
+{
+	background: #C850F1;
+}
+a[name="c3"]:hover
+{
+	background: #EFA141;
+}
